@@ -1,0 +1,19 @@
+name: drupal8
+display-name: Drupal 8
+summary: A Lucky Charm for Drupal 8
+maintainer: Opax <opax@katharostech.com>
+series:
+  - bionic
+description: |
+  A Lucky Charm for Drupal 8
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - cms
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  db:
+    interface: pgsql

@@ -1,2 +1,3 @@
-# charm_drupal-8
-Lucky Charm for Drupal 8
+# Drupal 8 Charm
+
+A Lucky Charm for Drupal 8
